@@ -1,3 +1,5 @@
+'use strict';
+
 angular.module('starter.services', [])
 
 .factory('Chats', function() {
@@ -46,7 +48,7 @@ angular.module('starter.services', [])
       }
       return null;
     }
-  }
+  };
 })
 
 /**
@@ -92,5 +94,5 @@ angular.module('starter.services', [])
       // Simple index lookup
       return friends[friendId];
     }
-  }
+  };
 });
